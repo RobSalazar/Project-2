@@ -25,3 +25,9 @@ Here are the before and afters for how our data looked before transforming with 
 * State name abbreviations[Before](https://gist.githubusercontent.com/mshafrir/2646763/raw/8b0dbb93521f5d6889502305335104218454c2bf/states_titlecase.json)and [After](https://github.com/RobSalazar/Project-2/blob/main/data/state_abbreviations.csv)
 
 The data files were subjected to various forms of transformations through such as: merges, group bys, pivots, column renaming and rearranging, and trimming all through the power of Pandas! Don't believe me? Take a [look](https://github.com/RobSalazar/Project-2/blob/main/data_cleaning.ipynb) for yourself.
+- - -
+## End Result
+Once we had enough fun transforming the data, we loaded our dataframes into our database where they can live rent free until and not worry about housing prices.
+![housing_data_db.PNG](https://github.com/RobSalazar/Project-2/blob/main/images/housing_data_db.PNG)
+![unemplyment_data_db.PNG](https://github.com/RobSalazar/Project-2/blob/main/images/unemplyment_data_db.PNG)
+![state_abbrv_db.PNG](https://github.com/RobSalazar/Project-2/blob/main/images/state_abbrv_db.PNG)
