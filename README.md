@@ -2,6 +2,7 @@
 <p align="center">
   <img src="https://github.com/RobSalazar/Project-2/blob/main/images/house_price.PNG" />
 </p>
+
 ## Purpose
 The purpose of this project was to demonstrate our interpretation of the ETL process. For this, housing price data was obtained from [zillow](https://www.zillow.com/research/data/) and the unemployment data was gathered from the [Bureau of Labor Statistics](https://www.bls.gov/web/laus.supp.toc.htm). We believed there could be an interesting connection between the prices of houses across the United States and how unemployment rates may or may not have some kind of effect on price.
 Once gathered the data was cleaned using python code implementing the pandas module. Afterword, the data was uploaded into a structured database. The reasoning behind this was the fact that strucured databases have been around for longer and have a more diverese pool of tools available for modeling and analysis.
