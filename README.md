@@ -31,6 +31,7 @@ The data files were subjected to various forms of transformations through such a
 - - -
 ## End Result
 Once we had enough fun transforming the data, we loaded our dataframes into our database where they can live rent free until and not worry about housing prices.
+- - -
 ![housing_data_db.PNG](https://github.com/RobSalazar/Project-2/blob/main/images/housing_data_db.PNG)
 ![unemplyment_data_db.PNG](https://github.com/RobSalazar/Project-2/blob/main/images/unemplyment_data_db.PNG)
 ![state_abbrv_db.PNG](https://github.com/RobSalazar/Project-2/blob/main/images/state_abbrv_db.PNG)
