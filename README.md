@@ -15,7 +15,7 @@ Listed below are the steps we followed in order to extract and clean our data:
 * It was important for us to begin with figuring out which question we could come up with that could lead to intersting analysis and models.
 * Our Zillow housing data was a large file in .csv format so we reigned in the most intersting months available and got rid of the rest.
 * Similarly, the BLS data had a range going back as far as 1976 so the data was also trimmed on the front end to match our housing data and was converted into a .csv.
-* The final file was created from a [github](https://gist.githubusercontent.com/mshafrir/2646763/raw/8b0dbb93521f5d6889502305335104218454c2bf/states_titlecase.json) and we had to make a json request to get this.
+* The final file was found when we needed to change our state names to abbreviations [github](https://gist.githubusercontent.com/mshafrir/2646763/raw/8b0dbb93521f5d6889502305335104218454c2bf/states_titlecase.json) and we had to make a json request to get this.
 * Pandas python module was used to further format, rearrange, and to save new clean .csv files from the dataframes we created.
 * We then imported the clean and ready dataframes into a PostgreSQL database using Pandas.
 
