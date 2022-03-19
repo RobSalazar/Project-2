@@ -22,7 +22,7 @@ Listed below are the summarized steps we followed in order to extract, transform
 Here are the before and afters for how our data looked before transforming with pandas:
 * Zillow [Before](https://github.com/RobSalazar/Project-2/blob/main/data/original/zillow_data.csv) and [After](https://github.com/RobSalazar/Project-2/blob/main/data/zillow.csv)
 * BLS unemployment data [Before](https://github.com/RobSalazar/Project-2/blob/main/data/original/state_unem_rate.csv) and [After](https://github.com/RobSalazar/Project-2/blob/main/data/unemployment_pivot.csv)
-* State name abbreviations[Before](https://gist.githubusercontent.com/mshafrir/2646763/raw/8b0dbb93521f5d6889502305335104218454c2bf/states_titlecase.json)and [After](https://github.com/RobSalazar/Project-2/blob/main/data/state_abbreviations.csv)
+* State name abbreviations [Before](https://gist.githubusercontent.com/mshafrir/2646763/raw/8b0dbb93521f5d6889502305335104218454c2bf/states_titlecase.json) and [After](https://github.com/RobSalazar/Project-2/blob/main/data/state_abbreviations.csv)
 
 The data files were subjected to various forms of transformations through such as: merges, group bys, pivots, column renaming and rearranging, and trimming all through the power of Pandas! Don't believe me? Take a [look](https://github.com/RobSalazar/Project-2/blob/main/data_cleaning.ipynb) for yourself.
 - - -
