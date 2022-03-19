@@ -11,7 +11,7 @@ Once gathered the data was cleaned using python code implementing the pandas mod
 ## Process
  ![erd.PNG](https://github.com/RobSalazar/Project-2/blob/main/images/ERD.png)
  
-Listed below are the steps we followed in order to extract and clean our data:
+Listed below are the summarized steps we followed in order to extract, transform, and load our data:
 * It was important for us to begin with figuring out which question we could come up with that could lead to intersting analysis and models.
 * Our Zillow housing data was a large file in .csv format so we reigned in the most intersting months available and got rid of the rest.
 * Similarly, the BLS data had a range going back as far as 1976 so the data was also trimmed on the front end to match our housing data and was converted into a .csv.
@@ -19,3 +19,7 @@ Listed below are the steps we followed in order to extract and clean our data:
 * Pandas python module was used to further format, rearrange, and to save new clean .csv files from the dataframes we created.
 * We then imported the clean and ready dataframes into a PostgreSQL database using Pandas.
 
+Here are the before and afters for how our data looked before transforming with pandas:
+* Zillow [Before](https://github.com/RobSalazar/Project-2/blob/main/data/original/zillow_data.csv) and [After](https://github.com/RobSalazar/Project-2/blob/main/data/zillow.csv)
+* BLS unemployment data [Befpre](https://github.com/RobSalazar/Project-2/blob/main/data/original/state_unem_rate.csv) and [After](https://github.com/RobSalazar/Project-2/blob/main/data/unemployment_pivot.csv)
+* State name abbreviations[Before](https://gist.githubusercontent.com/mshafrir/2646763/raw/8b0dbb93521f5d6889502305335104218454c2bf/states_titlecase.json)and [After](https://github.com/RobSalazar/Project-2/blob/main/data/state_abbreviations.csv)
