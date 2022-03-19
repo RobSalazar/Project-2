@@ -1,2 +1,2 @@
 # Testing
-[flare.gif](flare.gif)
+![flare.gif](flare.gif)
